@@ -1,0 +1,76 @@
+---
+title: "Powering Through: A Network Analysis of the US Western Interconnect"
+author: "Troy Altus"
+date: "June 2026"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    fig-align: center
+    self-contained: false
+  pdf:
+    documentclass: article
+    classoption: [letterpaper, 11pt]
+    geometry:
+      - top=1in
+      - bottom=1in
+      - left=1.25in
+      - right=1in
+    number-sections: true
+    colorlinks: true
+    toc: true
+    pdf-engine: latexmk
+    pdf-engine-opts:
+      - -lualatex
+bibliography: references.bib
+execute:
+  warning: false
+  message: false
+  echo: false
+jupyter: us-power-grid-network
+---
+
+```{python}
+#| label: setup
+#| include: false
+
+import pandas as pd
+import numpy as np
+import networkx as nx
+import plotly.express as px
+```
+
+## Abstract
+
+*Placeholder — 150–250 words, lead with results.*
+
+## Introduction
+
+*Motivation, research question, scope.*
+
+## Data
+
+*Source (Western Interconnect grid topology), acquisition method, schema, limitations.*
+
+## Methods
+
+*Scale-free / small-world tests; cascading failure simulation approach.*
+
+## Results
+
+*Findings with interactive Plotly visualizations.*
+
+## Discussion
+
+*Interpretation, caveats, implications.*
+
+## Conclusion
+
+*Key takeaways, future work.*
+
+## References
+
+::: {#refs}
+:::
