@@ -11,3 +11,6 @@ output/
 
 /.quarto/
 **/*.quarto_ipynb
+*.fdb_latexmk
+*.fls
+*.synctex.gz
